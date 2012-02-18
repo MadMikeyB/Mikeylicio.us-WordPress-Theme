@@ -1,0 +1,215 @@
+/*
+Theme Name: Mikeylicious
+Theme URI: http://mikeylicio.us
+Description: A simple wordpress theme designed for my own blog.
+Version: 1.0
+Author: Michael Burton (Mikey)
+Author URI: http://mikeylicio.us
+*/
+html {
+	background:#EEE;
+	color:#444444;
+}
+
+::selection {
+  background: #FF5E99;
+  color: #FFF; 
+text-shadow: 1px 1px 1px #444444;
+filter: dropshadow(color=#444444, offx=1, offy=1);
+  }
+  
+::-moz-selection {
+background: #FF5E99;
+color: #FFF;
+text-shadow: 1px 1px 1px #444444;
+filter: dropshadow(color=#444444, offx=1, offy=1);
+}
+
+h1 {
+	font-family: 'Asap', sans-serif;
+	font-weight:700;
+	font-size:24pt;
+}
+
+body {
+	color:#000000;
+	font-family:Arial;
+}
+
+article, aside, header, nav, footer {
+	display:block;
+}
+
+article {
+	width:580px;
+	/** float:left; **/
+	padding:10px;
+}
+
+
+article p {
+	padding:5px;
+}
+
+aside {
+	width:340px;
+	float:right;
+}
+
+aside p {
+
+}
+
+aside ul {
+	list-style:none;
+}
+aside ul li {
+	padding:5px;
+}
+
+header {
+
+}
+
+header em {
+	padding:5px;
+	margin:5px;
+}
+
+nav {
+
+}
+
+footer {
+	width: 960px;
+	margin:auto;
+	border:1px solid #CCC;
+	border-bottom:3px solid #FF5E99;
+	background:#FFFFFF;
+	min-height:45px;
+	max-height:65px;
+	margin-bottom:-45px;
+	margin-top:35px;
+	padding:10px;
+	-webkit-box-shadow: 0px 0px 5px 2px #E0E0E0;
+	-moz-box-shadow: 0px 0px 5px 2px #E0E0E0;
+	box-shadow: 0px 0px 5px 2px #E0E0E0;
+}
+
+nav ul li {
+	float:left;
+	list-style:none;
+	padding:4px;
+	margin:10px;
+}
+
+.menu {
+	float:right;
+	margin-top:-45px;
+	width:400px;
+}
+
+.active {
+	font-weight:700;
+}
+
+
+a, a:active, a:visited {
+	color:#666666;
+	border-bottom:1px dotted #666666;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#999999;
+}
+
+.header-wrap {
+	width: 960px;
+	margin:auto;
+	border:1px solid #CCC;
+	/** border-bottom:3px solid #FF5E99; **/
+	border-top:4px solid #33CCFF;
+	background:#FFFFFF;
+	margin-top:-10px;
+	margin-bottom:25px;
+	padding:10px;
+	-webkit-box-shadow: 0px 0px 5px 2px #E0E0E0;
+	-moz-box-shadow: 0px 0px 5px 2px #E0E0E0;
+	box-shadow: 0px 0px 5px 2px #E0E0E0;
+	min-height:45px;
+	max-height:65px;
+}
+
+.content-wrap {
+	width: 960px;
+	margin:auto;
+	border:1px solid #CCC;
+	/** border-top:3px solid #33ccff; **/
+	background:#FFFFFF;
+	/** min-height:825px; **/
+	padding:10px;
+	padding-bottom: 15px;
+-webkit-box-shadow: 0px 0px 5px 2px #E0E0E0;
+-moz-box-shadow: 0px 0px 5px 2px #E0E0E0;
+box-shadow: 0px 0px 5px 2px #E0E0E0;
+}
+
+.content-top-menu  {
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding:20px;
+	margin-bottom:-15px;
+}
+
+.content-top-menu nav ul {
+	margin-top:-40px;
+	
+}
+
+.footerlinks {
+	float:right !important;
+	margin-bottom:-45px;
+}
+
+.clear {
+	clear:both;
+}
+
+#commentform {
+    width:600px;
+}
+
+ol li {
+    list-style:none;
+}
+
+#comments-list ol li {
+    list-style:none;
+}
+
+#commentlist {
+    list-style:none;
+}
+
+.right {
+	float:right;
+}
+
+.meta {
+	margin-top:-20px;
+	margin-bottom:-10px;
+	padding:10px;
+	float:right;
+	font-style:oblique;
+}
+
+.fancylogotext {
+	font-family: 'Asap', sans-serif;
+	font-weight:700;
+	font-size:28pt;
+	padding:2px;
+	color:#000000;
+	margin-top:-5px;
+	margin-bottom:-10px;
+}
