@@ -1,0 +1,16 @@
+Installing the Theme:
+
+1] Navigate to your-wordpress/wp-content/themes
+2] Create a folder called "mikeylicious"
+3] run this command on SSH ``git://github.com/MadMikeyB/Mikeylicio.us-WordPress-Theme.git``
+OR
+3b] download the .zip file and upload to the new directory.
+4] Activate in wp-admin/themes
+5] Add widgets to taste.
+
+Enjoy!
+
+
+--
+
+It's a simple wordpress theme. Not many functions, works with widgets. Made mainly for personal use on Mikeylicio.us - my personal blog.
